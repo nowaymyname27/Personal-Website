@@ -1,9 +1,10 @@
-body {
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+#title {
     background-color: #292929;
-    color: #f0fef1;
+    min-height: 60vh;
+    padding: 50px;
 }
-
-.text {
-    color:#f0fef1;
-}
-
