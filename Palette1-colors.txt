@@ -1,0 +1,11 @@
+Your selected colors:
+
+    Primary: #f0fef1 (RGB: 240, 254, 241)
+    Secondary: #292929 (RGB: 41, 41, 41)
+    Primary Button: #871222 (RGB: 135, 18, 34)
+    Secondary Button: #fcfffa (RGB: 252, 255, 250)
+    Accent: #9d1528 (RGB: 157, 21, 40)
+
+Realtime Colors link for selected colors: https://realtimecolors.com/?colors=f0fef1-292929-871222-fcfffa-9d1528
+
+Thanks for using RealtimeColors.com!
