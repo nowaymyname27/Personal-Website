@@ -1,0 +1,57 @@
+Terminal:
+- `cd` // changes to the home directory
+- `cd ..` // moves one directory up
+- `ls` // lists all files and directories in the current directory
+- `ls -a` // lists all files and directories, including hidden ones
+- `cat <filename>` // displays the content of `<filename>` in the terminal
+- `open .` // opens the current directory in the default file explorer
+- `pwd` // prints the path of the current directory
+- `touch` // creates a new empty file
+- `mkdir` // creates a new directory
+- `rm` // removes a file
+- `rm —rf` // removes a directory and its contents recursively and forcefully
+
+Git:
+- `git init` // initializes a new Git repository in the current directory
+- `git status` // shows the current status of the repository
+- `git add` // adds a specific file to the staging area
+- `git add .` // adds all new and changed files to the staging area
+- `git reset <file>` // removes the specified file from the staging area but retains the changes
+- `git commit -m “My Message”` // commits the staged changes with a message
+- `git commit -a -m "message"` // stages all tracked, modified files and commits them with a message in one step
+- `git log —oneline` // shows the commit history in a single line format
+- `git commit --amend` // amends the most recent commit
+- `git clone <url>` // clones a repository from the provided URL into a new directory in your local system
+
+Branching
+- `git branch` // lists all branches in the repository
+- `git branch <branch-name>` // creates a new branch with the given name
+- `git switch <branch-name>` // switches to the specified branch
+- `git switch -c <branch-name>` // creates a new branch and switches to it
+- `git checkout <branch-name>` // switches to the specified branch
+- `git branch -d <branch-name>` // deletes the specified branch safely, only if it has been fully merged in its upstream branch
+- `git branch -D <branch-name>` // deletes the specified branch forcefully, regardless of its merge status
+- `git branch -m <old-name> <new-name>` // renames the branch from `<old-name>` to `<new-name>`
+- `git branch -m <new-name>` // renames the current branch to `<new-name>`
+- `git merge <branch-name>` // merges the specified branch into the current branch
+
+Diff
+- `git diff` // shows differences between the working directory and the staging area
+- `git diff HEAD` // shows the differences between the working directory and the last commit
+- `git diff --staged` // shows the differences between the staged changes and the last commit
+- `git diff HEAD <filename>` // shows the differences between the specified file in the working directory and the last commit
+- `git diff --staged <filename>` // shows the differences between the specified file in the staged changes and the last commit
+- `git diff branch1 branch2` // shows the differences between the two specified branches
+- `git diff commit1 commit2` // shows the differences between the two specified commits
+
+Stashing
+- `git stash` // temporarily saves changes that you don't want to commit immediately
+- `git stash pop` // re-applies the changes stored in the stash and then removes the stash
+- `git stash apply` // re-applies the changes stored in the stash without removing the stash
+
+GITHUB
+- `git remote add <name> <url>` // adds a new remote repository with the specified name and URL
+- `git push <remote> <branch>` // pushes the specified branch to the specified remote repository
+
+
+`.gitignore` // a text file where you can specify files and folders that git should ignore
