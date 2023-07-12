@@ -3,14 +3,23 @@
     border-radius: 50%;
 }
 
+body {
+    background-color: #232323;
+}
+
 #title {
-    background-color: #292929;
+    background-color: #232323;
     min-height: 60vh;
     padding: 50px;
 }
 
 #header {
     background-color: #871222;
+    font-size: 1.1rem;
+}
+
+#projects {
+
 }
 
 .btn {
@@ -18,7 +27,7 @@
 }
 
 .nav-link {
-    color: white;
+    color: whitesmoke;
 }
 
 .nav-link:hover {
@@ -27,6 +36,6 @@
 }
 
 #footer {
-    background-color: #292929;
+    background-color: #871222;
     height: 8vh; 
 }
