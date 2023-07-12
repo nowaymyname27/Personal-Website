@@ -12,3 +12,8 @@
 .nav-link {
     color: white;
 }
+
+#footer {
+    background-color: #292929;
+    height: 8vh; 
+}
