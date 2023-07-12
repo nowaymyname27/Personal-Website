@@ -9,8 +9,21 @@
     padding: 50px;
 }
 
+#header {
+    background-color: #871222;
+}
+
+.btn {
+    background-color: #871222;
+}
+
 .nav-link {
     color: white;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: white;
 }
 
 #footer {
