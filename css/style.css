@@ -36,6 +36,8 @@ body {
 }
 
 #footer {
-    background-color: #871222;
+    bottom: 0;
+    width: 100%;
     height: 8vh; 
+    background-color: #871222;
 }
