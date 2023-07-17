@@ -32,6 +32,13 @@ body {
     border: #871222;
 }
 
+.feature-icon {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.75rem;
+    background-color: #871222;
+}
+
 .nav-link {
     color: whitesmoke;
 }
