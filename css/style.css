@@ -18,9 +18,6 @@ body {
     font-size: 1.1rem;
 }
 
-#projects {
-
-}
 
 #projects-page {
     background-color: #232323;
@@ -59,3 +56,12 @@ body {
     color: white;
 }
 
+.card-relative {
+    position: relative;
+  }
+  
+  .button-absolute {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+  }
