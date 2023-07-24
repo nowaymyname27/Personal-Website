@@ -5,6 +5,7 @@
 
 body {
     background-color: #232323;
+    height: 100vh;
 }
 
 #title {
@@ -65,3 +66,7 @@ body {
     bottom: 10px; /* Adjust as needed */
     left: 10px; /* Adjust as needed */
   }
+
+#contact {
+    height: 100vh;
+}
