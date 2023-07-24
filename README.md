@@ -1,44 +1,40 @@
 # Jose Ramirez - Personal Website
 
-This is the repository for the personal website of Jose Ramirez. The website is built using HTML, CSS, and Bootstrap. It includes an introduction to Jose, a showcase of his projects, and contact information.
+## Overview
 
-## Features
+This is a personal website project for Jose Ramirez, showcasing his skills, projects and experiences as a developer. This site is built with HTML, CSS and Bootstrap for a responsive design, providing a seamless user experience across all device types. The website includes several pages such as Home, Projects, Dev Blog and Contact Me.
 
-1. **Introduction section:** A brief introduction about Jose Ramirez and a download link to his resume.
+## Structure
 
-2. **Projects section:** Display of some of the projects he's working on. These include projects on Unity Games, Python, and Interactive Websites.
+- `index.html`: This is the main HTML file which serves as the home page of the website.
+- `projects.html`: This page showcases Jose's projects.
+- `contact.html`: This is the contact page where users can get in touch with Jose.
+- `css/style.css`: This file contains all the CSS styles used in this project.
+- `assets/`: This directory contains all the static files used in the website such as images and icons.
+- `assets/icons/favicon.ico`: This is the favicon for the website.
+- `assets/images/Jose_fox.png`: This is the profile image of Jose.
 
-3. **Footer:** Contains links to Jose Ramirez's GitHub and LinkedIn profiles.
+## Tech Stack
+
+- HTML: The website uses HTML for structuring the content on the web pages.
+- CSS: CSS is used for applying styles to the website's content and creating a visually appealing layout.
+- Bootstrap: The Bootstrap framework is used for creating a responsive design, making the website mobile-friendly.
+- JavaScript: JavaScript is used for creating interactive elements on the website.
 
 ## How to Use
 
-1. Clone this repository.
+1. Clone this repository to your local machine.
+2. Navigate to the directory where you cloned the repository.
+3. Open `index.html` in your preferred browser to view the website.
 
-2. Open `index.html` in your web browser to view the site.
+## Contributors
 
-## File Structure
+- Jose Ramirez
 
-- `index.html`: The main HTML file that contains the structure of the website.
+## Contact
 
-- `css/style.css`: The CSS file that includes all the styles for the website.
+For any inquiries or feedback, you can reach out to Jose through the "Contact Me" page on the website.
 
-- `assets/images/`: This directory contains all the image assets used on the website.
+## License
 
-## External Libraries
-
-The website uses the following external libraries:
-
-- [Bootstrap 5.3.0](https://getbootstrap.com/docs/5.3/getting-started/introduction/): A popular HTML, CSS, and JS library for developing responsive, mobile-first projects on the web.
-
-## Author
-
-Jose Ramirez
-
-## Connect
-
-- [GitHub](https://github.com/nowaymyname27)
-- [LinkedIn](www.linkedin.com/in/jose-ramirez-63917b282)
-
-## Licence
-
-This project is open-source and available to everyone under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the MIT License.
